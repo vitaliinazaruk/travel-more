@@ -1,5 +1,11 @@
 body{
+	font-family: 'Josefin Sans', sans-serif;
 
+}
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
 /* Typography */
@@ -54,4 +60,345 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.ba-header {
+	height: 740px;
+	width: 100%;
+	background: url("../images/main-image.png") center center no-repeat;
+	
+}
+
+.main {
+	padding-top: 260px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 650px;
+	height: 340px;
+	text-align: center;
+}
+
+.header-title {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 26px;
+}
+
+.header-subtitle {
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 0.31em;
+	line-height: 26px;
+	color: #ffffff;
+}
+
+.header-form {
+	margin-top: 50px;
+	padding: 2px;
+	width: 650px;
+	height: 60px;
+	background-color: #FFF;
+}
+
+.header-form input {
+	width: 495px;
+	height: 55px;
+	background-color: #FFF;
+	text-align: center;
+	border: none;
+}
+
+.header-form button {
+	width: 145px;
+	height: 55px;
+	float: right;
+	border: none;
+	background-color: #5882e8;
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.scroll {
+	margin-top: 120px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	background: url("../images/arrow.png") center bottom no-repeat;
+}
+
+.scroll a {
+	list-style: none;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.nav {
+	height: 80px;
+	width: 100%;
+	background-color: #4f6fee;
+}
+
+.nav-menu {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.nav-menu h2 {
+	float: left;
+	padding-top: 20px;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	line-height: 26px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.nav-menu ul {
+	list-style: none;
+}
+
+.nav-menu ul li {
+	padding-top: 20px;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-right: 20px;
+	float: right;
+}
+
+.choose {
+	margin-top: -25px;
+	height: 680px;
+	width: 100%;
+	background: url("../images/choose.png") center center no-repeat;
+}
+
+.choose .ba-grid {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.describe {
+	width: 540px;
+	padding-top: 200px;
+}
+
+.describe h1 {
+	font-family: 'Aleo', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 26px;
+	color: #ffffff;
+	margin-bottom: 60px;
+}
+
+.describe p {
+	font-family: 'Aleo', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.2em;
+	color: #e7e7e7;
+}
+
+.explore {
+	margin-top: 50px;
+	width: 225px;
+	height: 60px;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.075em;
+	border: none;
+	background-color: #5882e8;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+.image {
+	margin-top: 120px;
+	padding-left: 50px;
+}
+
+.image-item1 {
+	background: url("../images/image1.png") center center no-repeat;
+	width: 340px;
+	height: 225px;
+}
+
+.image-item2 {
+	background: url("../images/image2.png") center center no-repeat;
+	width: 340px;
+	height: 225px;
+	float: right;
+}
+
+.info {
+	display: flex;
+	width: 100%;
+	height: 340px;
+	background-color: #333333;
+	justify-content: space-around;
+	
+}
+
+.info-item {
+	display: flex;
+	width: 1110px;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+
+.search a {
+	font-family: 'Aleo', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+.select a {
+	font-family: 'Aleo', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+
+.bt a {
+	font-family: 'Aleo', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+.spain-1 {
+	height: 700px;
+	width: 100%;
+	background: url("../images/spain1.png") center center no-repeat;
+}
+
+.spain-1 .spainblock {
+	width: 540px;
+	height: 415px;
+	background-color: #312b2b;
+	opacity: 0.8;
+	margin: 230px 0 0 144px;
+	padding: 40px;
+}
+
+.location h3 {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #e7e7e7;
+	padding-bottom: 35px;
+}
+
+.name h2 {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+}
+
+.text p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #e7e7e7;
+	padding-bottom: 50px;
+}
+
+.booknow button {
+	width: 225px;
+	height: 60px;
+	background-color: #5882e8;
+	font-family: 'Aleo', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 400;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	line-height: 26px;
+	color: #ffffff;
+	padding-bottom: 55px;
+}
+
+.spain-2 {
+	height: 700px;
+	width: 100%;
+	background: url("../images/spain2.png") center center no-repeat;
+}
+
+.spain-2 .spainblock {
+	width: 540px;
+	height: 415px;
+	background-color: #312b2b;
+	opacity: 0.8;
+	margin: 230px 144px 0 0;
+	padding: 40px;
+}
+
+.tourist {
+	margin-top: -50px;
+	height: 730px;
+	width: 100%;
+	background: url("../images/tourist.png") center center no-repeat;
+}
+
+.tourist-title {
+	padding-top: 120px;
+	text-align: center;
+	font-family: 'Aleo', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #ffffff;
+	padding-bottom: 100px;
+}
+
+.comment {
+	width: 1110px;
+	height: 285px;
+	margin: 0 auto;
+	background-color: #333333;
+	position: relative;
+}
+
+.avatar {
+	background: url("../images/touristavatar.png") center center no-repeat;
+	width: 450px;
+	height: 285px;
+}
+
+
+.tourist-describe h3 {
+	
 }
